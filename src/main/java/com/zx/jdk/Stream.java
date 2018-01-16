@@ -35,17 +35,11 @@ public class Stream {
 		//并行多线程流,如下的排序,Comparator.comparingInt内部返回了Comparator.
 		System.out.println("sort----------");
 		list.parallelStream().sorted(Comparator.comparingInt(o -> o.indexOf(0))).forEach(System.out::println);
-		// TODO http://www.importnew.com/10360.html
-
-
-		//循环,!!!注意,一个流只能被foreach一次.输出每个元素,使用了方法引用表达式
+		//循环,!!!注意,一个流只能被foreach一次.foreach第二次将抛出异常输出每个元素,使用了方法引用表达式
 		stream.forEach(System.out::println);
-
-
-
 	}
 
-	private static List<String>  getList() {
+	private static List<String> getList() {
 		List<String> stringCollection = new ArrayList<>();
 		stringCollection.add("ddd2");
 		stringCollection.add("aaa2");
