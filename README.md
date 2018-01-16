@@ -82,7 +82,7 @@
 
 #### Lambda 闭包  
 * 如下例子,list排序,其中List的 default void sort(Comparator<? super E> c)也是jdk8提供的实现
-* 当函数内容只有一行时,去掉
+* 当函数内容只有一行时,可去掉{}
 >
     private static void jdk8ListSort() {
             /**
