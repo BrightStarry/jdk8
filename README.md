@@ -1,6 +1,6 @@
 #### JDK8学习
 
-#### 奇淫巧技 http://www.importnew.com/27777.html
+#### 奇淫巧技 
 * IDEA,在Project窗口右击,选择不使用Docked Mode,该窗口在未获得焦点时自动隐藏,或者按ESC隐藏
 * IDEA,在Project窗口,直接输入类名,可查找类,并可用上下方向键在匹配的类中上下跳转.
 * IDEA,在Run或Debug窗口,选择左边的一个Dump Threads按钮,可以输出当前应用的所有线程状态.
